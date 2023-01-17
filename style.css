@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(48, 51, 54);
+    width: 100%;
+    height: 100%;
+}
+
+/* navigation */
+
+nav a {
+    color: white;
+    height: 2%;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    display: flex;
+    margin-top: 1%;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    cursor: pointer;
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0 1.5% 0 0;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+nav img {
+    border-radius: 50%;
+}
+
+nav svg {
+    width: 25px;
+    height: 25px;
+    background-color: rgba(255,255,255,0.87);
+}
+
+nav img:hover {
+    border: 10px solid rgba(196, 30, 196, 0.2);
+    transition: 0.4s;
+}
+
+
+/* main */
+
+main {
+    text-align: center;
+}
+
+main h1 {
+    font-size: 5.5em;
+    color: white;
+    margin-top: 7.5%;
+}
+
+main input {
+   margin-top: 2%;
+   width: 40%;
+   height: 3.3em;
+   border-radius: 45px;
+   font-size: 16px;
+}
+
+main input::placeholder {
+    font-size: 16px;
+    padding: 3%;
+}
+
+/* shortcuts */
+
+#shortcuts {
+    display: flex;
+    justify-content: center;
+}
+
+.shortcuts {
+    height: 110px;
+    width: 110px;
+    background-color: rgb(48, 51, 54);
+    margin: 1% 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.shortcuts:hover{
+    background-color: rgb(96, 100, 105);
+    cursor: pointer;
+}
+
+.one {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+}
+
+.two {
+    color: white;
+    width: 100%;
+}
+
+#shortcuts a {
+    text-decoration: none;
+}
+
+
+
